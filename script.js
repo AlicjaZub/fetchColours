@@ -41,6 +41,7 @@ nextButton.addEventListener('click', e => {
     result.innerHTML = ''
     renderImg(imagesChosen)
     displayImages()
+    window.scrollTo(0,0)
 })
 
 previousButton.addEventListener('click', e => {
