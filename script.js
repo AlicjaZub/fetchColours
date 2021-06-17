@@ -16,7 +16,7 @@ const content = document.querySelector('#content')
 const caption = document.querySelector('#caption')
 const nextButton = document.querySelector('#nextColours')
 const previousButton = document.querySelector('#previousColours')
-let page_number = 166
+let page_number = 1
 const result = document.querySelector('#result')
 
 function renderImg(images) {
