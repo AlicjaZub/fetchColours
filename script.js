@@ -16,7 +16,7 @@ const content = document.querySelector('#content')
 const caption = document.querySelector('#caption')
 const nextButton = document.querySelector('#nextColours')
 const previousButton = document.querySelector('#previousColours')
-let page_number = 1
+let page_number = 166
 const result = document.querySelector('#result')
 
 function renderImg(images) {
@@ -33,7 +33,7 @@ span.addEventListener('click', e => {
 
 nextButton.addEventListener('click', e => {
     page_number++
-    if (page_number === 167) {
+    if (page_number === (allColours.length / 30) ) {
         nextButton.style.display = 'none'
     }
     previousButton.style.display = 'block'
